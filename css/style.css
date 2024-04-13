@@ -1,0 +1,632 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    height:2900px;
+    /* background-color: red; */
+    position: relative;
+}
+.section1{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    background-color:white;
+   box-shadow:  0 5px 10px rgba(98, 97, 97, 0.329);
+    margin:auto;
+}
+.contain{
+    width:82%;
+    height:80px;
+    /* background-color:rgb(149, 20, 20); */
+    margin:auto;
+   
+
+}
+.logo{
+    width:15%;
+    height:56px;
+    /* background-color:rgb(20, 87, 149); */
+    float: left;
+    padding: 12px;
+}
+.nav{
+    width:40%;
+    height:80px;
+    /* background-color:rgb(20, 87, 149); */
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 24px 5px 8px 8px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+/* section2 */
+.section2{
+    position: absolute;
+    top:81px;
+    left:0;
+    width:100%;
+    height:650px;
+    background:url(../images/the-town-bg-01.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin:auto;
+
+}
+.section2 h2{
+    position: absolute;
+    left:480px;
+    top:270px;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+
+}
+.icon1{
+    position: absolute;
+    left:635px;
+    top:390px;
+    font-size: 80px;
+    color:white;
+    /* transition: 0.5s; */
+
+}
+
+#back{
+    position: absolute;
+    left:650px;
+    top:400px;
+    border: none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    visibility: hidden;
+    
+}
+.icon1:hover{
+    opacity: 1;
+    color:#0A8FE7;
+    background-color: white;
+    border-radius: 50%;
+    
+
+}
+/* introduction */
+.section3{
+    position: absolute;
+    left:0px;
+    top:731px;
+    width:100%;
+    height: 950px;
+    /* background-color: purple; */
+    position: relative;
+
+}
+.introconatiner{
+    position: absolute;
+    top:0px;
+    left:120px;
+    width:82%;
+    height:900px;
+    /* background-color:rgb(149, 20, 20); */
+    margin:auto;
+   
+
+
+
+}
+.introcol1{
+    width:45%;
+    height:395px;
+    background:url(../images/the-town-01.jpg) no-repeat center;
+    float: left;
+    margin:3px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+a{
+    list-style: none;
+    color:black;
+    text-decoration: none;
+}
+.introrow1{
+    width:99%;
+    height: 550px;
+    /* background-color: rgb(0, 107, 128); */
+    margin:5px;
+}
+.introcol3{
+    width:50%;
+    height:395px;
+    float: left;
+    margin:3px;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 20px;
+
+}
+.introcol3 h2{
+    color:#3496D8;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding:10px;
+}
+.introcol3 p{
+    color: #8f8f8f;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    word-spacing: 0.5px;
+    margin:9px;
+}
+
+#newbtn{
+    border: none;
+    width:140px;
+    height:50px;
+    color: white;
+    border-radius: 50px;
+    background-color:#3697D8;
+    text-align: center;
+    font-size: larger;
+}
+.introrow3 .introcol{
+    width:32%;
+    height: 370px;
+    /* border: 1px solid black; */
+    float:left;
+    margin:5px;
+
+}
+.introrow3 i{
+    font-size: 60px;
+    color: #3496d8;
+    padding: 12px 3px 5px 140px;
+}
+.introrow3 h2{
+    font-size: 25px;
+    color: #3496d8;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+.introrow3 p{
+    font-size: 20px;
+    color: #8f8f8f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    word-spacing: 1px;
+}
+/* card */
+
+.section4{
+    position: absolute;
+    left:0px;
+    top:1700px;
+    width:100%;
+    height: 660px;
+    /* background-color: rgb(20, 112, 132); */
+    /* position: relative; */
+} 
+.workcontainer{
+    width:82%;
+    height:100%;
+    /* background-color:rgb(149, 20, 20); */
+    margin:auto;
+    position: relative;
+   
+}
+.workcontainer h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#3496D8;
+    text-align: center;
+    padding:10px;
+
+
+}
+.workcontainer p{
+    color:#8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 65px;
+    width:60%;
+    padding-left:200px;
+
+
+}
+.workcontainer .workimg1{
+    width:218px;
+    height:329px;
+    background:url(../images/gallery-tn-01.jpg) no-repeat center;
+    background-size: cover;
+    /* background-color: transparent; */
+    margin: 1px ;
+    border: 0.5px white solid;
+    float:left;
+    transition: 0.5s;
+    position: relative;
+
+}
+
+.workcontainer .workimg2{
+    width:217px;
+    height:329px;
+    background:url(../images/gallery-tn-02.jpg) no-repeat center;
+    background-size: cover;
+    margin: 1px;
+    float:left;
+    border: 0.5px white solid;
+    transition: 0.5s;
+    position: relative;
+}
+
+.workcontainer .workimg3{
+    width:217px;
+    height:329px;
+    background:url(../images/gallery-img-05.jpg) no-repeat center;
+    background-size: cover;
+    margin: 1px;
+    float:left;
+    border: 0.5px white solid;
+    transition: 0.5s;
+    position: relative;
+
+}
+
+.workcontainer .workimg4{
+    width:217px;
+    height:329px;
+    background:url(../images/gallery-tn-04.jpg) no-repeat center;
+    background-size: cover;
+    margin: 1px;
+    border: 0.5px white solid;
+    float:left;
+    transition: 0.5s;
+    position: relative;
+
+}
+
+.workcontainer .workimg5{
+    width:217px;
+    height:329px;
+    background:url(../images/gallery-img-06.jpg) no-repeat center;
+    background-size: cover;
+    margin: 1px;
+    float:left;
+    border: 0.5px white solid;
+    transition: 0.5s;
+    position: relative;
+}
+
+
+.slidephoto h2 span{
+    font-weight: bolder;
+}
+/* images style */
+.slidephoto .workimg1 .overlay h2{
+    position: absolute;
+    left:20%;
+    top:40%;
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.workimg1:hover .overlay h2{
+    opacity: 1;
+    top:50%;
+}
+.overlay{
+    width:100%;
+    height:100%;
+    transition: 0.5s;
+    background-color: transparent;
+    /* position: relative; */
+    
+
+}
+
+.workimg1:hover .overlay{
+    background-color: rgba(0,0,0,0.5);
+    /* border-bottom: 10px blue solid; */
+  
+
+}
+ .border{
+     position: absolute;
+    bottom: -10px;
+   
+    width: 100%;
+    height:15px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.workimg1:hover .border{
+    background-color: #388FC1;
+    bottom: 0px;
+}
+/* 2nd */
+.slidephoto .workimg2 .overlay h2{
+    position: absolute;
+    left:25%;
+    top:40%;
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.workimg2:hover .overlay h2{
+    opacity: 1;
+    top:50%;
+
+}
+
+.workimg2:hover .overlay{
+    background-color: rgba(0,0,0,0.5);
+    /* border-bottom: 10px blue solid; */
+  
+
+}
+.workimg2:hover .border{
+    background-color: #388FC1;
+    bottom: 0px;
+}
+/* 3rd */
+.slidephoto .workimg3 .overlay h2{
+    position: absolute;
+    left:25%;
+    top:40%;
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.workimg3:hover .overlay h2{
+    opacity: 1;
+    top:50%;
+}
+
+.workimg3:hover .overlay{
+    background-color: rgba(0,0,0,0.5);
+    /* border-bottom: 10px blue solid; */
+  
+
+}
+.workimg3:hover .border{
+    background-color: #388FC1;
+    bottom: 0px;
+}
+/* 4th */
+.slidephoto .workimg4 .overlay h2{
+    position: absolute;
+    left:25%;
+    top:40%;
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.workimg4:hover .overlay h2{
+    opacity: 1;
+    top:50%;
+}
+
+.workimg4:hover .overlay{
+    background-color: rgba(0,0,0,0.5);
+    /* border-bottom: 10px blue solid; */
+  
+
+}
+.workimg4:hover .border{
+    background-color: #388FC1;
+    bottom: 0px;
+}
+/* 5th */
+.slidephoto .workimg5 .overlay h2{
+    position: absolute;
+    left:25%;
+    top:40%;
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.workimg5:hover .overlay h2{
+    opacity: 1;
+    top:50%;
+}
+
+.workimg5:hover .overlay{
+    background-color: rgba(0,0,0,0.5);
+    /* border-bottom: 10px blue solid; */
+  
+
+}
+.workimg5:hover .border{
+    background-color: #388FC1;
+    bottom: 0px;
+}
+
+/* contact */
+
+.section5{
+    position: absolute;
+    top:2300px;
+    left:0px;
+    width:1349px;
+    height: 721px;
+   background: url(../images/the-town-bg-02.jpg) no-repeat center;
+   background-size: cover;
+   background-attachment: fixed;
+} 
+.containerfoot{
+    /* position: absolute;
+    top: 2300px;
+    left:125px; */
+    width:80%;
+    height:97%;
+    background-color: transparent;
+    /* background-color: yellow; */
+    margin:auto;
+    padding: 10px;
+}
+.containerfoot h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    padding-top: 95px;
+    
+}
+.borderline{
+    border-top:white  3px solid;
+
+}
+.darkborder{
+    background-color: white;
+    width:25%;
+    height:8px;
+}
+.containerfoot p{
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    color:white;
+    margin-top: 35px;
+    font-weight: normal;
+}
+.contactsection{
+ 
+    width:88%;
+    height:250px;
+    background-color: transparent;
+    /* border: 1px solid red; */
+    margin:auto;
+    padding: 10px;
+    margin-top:20px;
+}
+.contact1{
+    width:28%;
+    height:200px;
+    background-color: transparent;
+    /* border: 1px solid rgb(9, 255, 0); */
+    margin:5px;
+    padding: 10px;
+    margin-top:20px;
+    float:left;
+
+}
+.contact2{
+    width:48%;
+    height:200px;
+    background-color: transparent;
+    /* border: 1px solid rgb(9, 255, 0); */
+    padding: 10px;
+    margin-top:20px;
+    float: right;
+    padding-left: 160px;
+
+}
+.conro1{
+    width:88%;
+    height:100px;
+    background-color: transparent;
+    margin:2px;
+}
+.contactsection i{
+    font-size: 2.0rem;
+    color: white;
+    padding-right: 19px;
+    transition:9s;
+
+}
+.conrow3{
+    width:88%;
+    height:100px;
+    background-color: transparent;
+    margin:2px;
+    color:white;
+    
+}
+.contactsection span{
+    color: white;
+    font-size: 18px;
+}
+.conrow3 input{
+    width:235px;
+    height:20px;
+    background-color: inherit;
+    border: none;
+    border:white 1px solid;
+    border-radius: 5px;
+    color:white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    position: relative;
+}
+.conrow3 button{
+    position: absolute;
+    left:965px;
+    top:500px;
+    width:100px;
+    height:40px;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+}
+.copy{
+    position: absolute;
+    left:400px;
+    top:650px;
+    text-align: center;
+    padding-left: 70px;
+}
+.copy p{
+    color:rgb(214, 210, 210);
+    font-family: Arial,Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+#template{
+    color:rgb(214, 210, 210);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    
+}
